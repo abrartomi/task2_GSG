@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(236, 235, 233);
+    width: 99%;
+  }
+  h2, h3 {
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: left;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .header {
+    background-color: #333;
+    padding: 10px;
+    width: 98%;
+    top: 0;
+    z-index: 10;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  nav ul {
+    justify-content: center;
+    display: block;
+    
+  }
+ 
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    color: #555;
+  }
+  section {
+    padding: 5px;
+    text-align: left;
+    margin-top: 20px;
+    width: 98%;
+  }
+  #about {
+    border: #333;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+  }
+  #about img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .z3{
+    position: absolute;
+    z-index: 3; 
+    background: rgb(216, 144, 194);
+    height: 150px;  
+    width: 300px;
+    left: 40px;
+    top: 300px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+  }
+  li{
+    display:inline;
+  }
+  
+  #skills {
+    border: #333;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("360_F_281970265_KR6Ey4XF3miLYq0QDp3WsH0m35MR2tGC.jpg");
+  }
+  #skills ul{
+    justify-content: center;
+    display: inline-block;
+    background-color: rgb(211, 223, 218);
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px;
+    text-align: center;
+    z-index: 2;
+    
+  }
+  #skills ul li{
+    padding: 5px;
+    background-color: rgb(78, 163, 78);
+    border-radius: 5px;
+    
+  }
+  #skills ul li :hover{
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  #project {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 98%;
+    top: 0;
+    z-index: 10;
+    border-radius: 10px;
+    text-align: center;
+    color: #130f0f;
+  }
+  .p1{
+    background-color: rgb(182, 101, 72);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    
+  }
+  .p2{
+    background-color: rgb(103, 105, 230);
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+  }
+  .p3{
+    background-color: rgb(75, 75, 99);
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  .contact{
+    display: grid;
+    gap: 3px;
+    width: 98%;
+    background-color: gray;
+    margin-bottom: 0px;
+    height: 30%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  input{
+    width:99%;
+    display: inline-block;
+    border: 1px gray solid;
+    border-radius: 5px; 
+    margin: 2px;
+    height: 40px;
+}
+input[type=submit]{
+    color:white;
+    cursor:pointer;
+    border: none;
+    background-color: green;
+}
